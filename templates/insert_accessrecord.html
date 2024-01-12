@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insert_accessrecord</title>
+</head>
+<body>
+    <center>
+        <h1>insert_accessrecord</h1>
+        <form action="" method="POST">
+            {% csrf_token %}
+                {{EAFDO.as_p}}
+            <input type="submit" value="Insert webpage">
+        </form>
+    </center>
+</body>
+</html>
